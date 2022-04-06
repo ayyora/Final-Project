@@ -1,11 +1,12 @@
 import React from "react";
-import Navbar from "../../component/navbar/Navbar";
+import Default from "../../layout/Default";
 
 export default function Wisata() {
   return (
     <>
-      <Navbar />
+      <Default>
       <h1>Ini Page Wisata</h1>
+      </Default>
     </>
   );
 }
