@@ -1,11 +1,12 @@
 import React from "react";
-import Navbar from "../../component/navbar/Navbar";
+import Default from '../../layout/Default'
 
 export default function Kuliner() {
   return (
     <>
-      <Navbar />
+      <Default>
       <h1>Ini Kuliner Page</h1>
+      </Default>
     </>
   );
 }
