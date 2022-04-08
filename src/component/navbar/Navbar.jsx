@@ -3,7 +3,7 @@ import React from "react";
 import logo from "../../component/Logo.png";
 import "./style.css";
 
-export default function nav() {
+export default function Navbar() {
   return (
     <>
       <header className="p-3 mb-4 bg-success text-white">
