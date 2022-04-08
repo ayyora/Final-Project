@@ -25,7 +25,7 @@ export default function Wisata() {
     <>
       <Default>
         <Container>
-          <div className='d-flex flex-column align-items-center'>
+          <div className="d-flex flex-column align-items-center">
             <CardHorizontal data={dataWisata} />
           </div>
         </Container>
